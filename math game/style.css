@@ -1,0 +1,56 @@
+body{
+    background-color: #4d91e2;
+}
+
+#wrapper{
+    height: 350px;
+    width: 750px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+#btn{
+    background-color: red;
+    color: #fff;
+    padding: 12px;
+    border-style: none;
+    font-weight: bold;
+    width: 100px;
+}
+table{
+    padding:40px;
+    padding-top: 80px;
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+}
+#text:focus{
+    outline: none;
+  
+}
+#text{
+    font-size: 30px;
+    width: 20vh;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.span{
+   color: white;
+   font-size: 30px;
+}
+
+#timer{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+ }
+
+
+

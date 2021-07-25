@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="wrong" class="span"></div>
+        <div id="total" class="span"></div>
+        <div id="right" class="span"></div>
+    </div>
+
+    <div id="timer" style="text-align: center;">
+        <span id="hr"></span>
+        <span id="min"></span>
+        <span id="sec"></span>
+    </div>
+
+    <div id="wrapper" style="background-color: yellow;">
+        <table style="text-align: right; height: 300px; width: 400px;"> 
+            <tr>
+                <td>
+                    <div id="number1" style="font-size: 45px; font-weight: bold; border: 5px solid rgb(8, 189, 17);
+                     padding: 50px;">1</div>
+                </td>
+                <td>
+                    <div style="font-size: 45px; font-weight: bold;">+</div>
+                </td>
+                <td>
+                    <div id="number2" style="font-size: 45px; font-weight: bold; border: 5px solid blue;
+                     padding: 50px;">2</div>
+                </td>
+                <td>
+                    <div style="font-size: 45px; font-weight: bold;">=</div>
+                </td>
+                <td>
+                    <input type="text" id="text" autofocus  style="padding: 10px; border: 2px solid rgb(16, 200, 224)"></input>
+                </td>
+                <td>
+                    <input id="btn" onclick="checkSum()" type="button" value="check"></input>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <h1 id="result"></h1>
+
+    <script src="script.js"></script>
+</body>
+</html>
